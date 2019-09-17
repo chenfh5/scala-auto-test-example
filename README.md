@@ -1,16 +1,27 @@
 # Overview
-try some scala proto buffer auto generate using sbt `compile`, so as to test the PB features,
-1. field number/index is the most important
-2. if field number not change, but field name change, then output would using the new field name
+try to shwo how to use,
+- **sbt**<sup>[1]</sup>, to build and manage scala project and its dependencies/plugins,
+- **Scalafmt**<sup>[2]</sup>, to have a uniform format for personal and team projects for easy maintenance and handover
+- **ScalaTest**<sup>[3]</sup>, to test your written code making you braver to refactor it
+- **ScalaMock**<sup>[4]</sup>, to mock your interface return making it easier to test your function as expected
+- **ScalaMeter**<sup>[5]</sup>, to benchmark your written code
 
 # Versions
-- scalapb, 0.9.0
-- sbt-protoc, 0.99.23
+## local install
+- Scala, [2.13.0](https://github.com/scala/scala/tree/v2.13.0)
+- sbt, [1.3.0](https://github.com/sbt/sbt/tree/v1.3.0)
+- Scalafmt, [2.1.0-RC1](https://github.com/scalameta/scalafmt/tree/v2.1.0-RC1)
+
+## add as sbt dependency
+- ScalaTest, [3.0.8](https://mvnrepository.com/artifact/org.scalatest/scalatest_2.13/3.0.8),
+- ScalaMock, [4.4.0](https://mvnrepository.com/artifact/org.scalamock/scalamock_2.13/4.4.0)
+- ScalaMeter, [0.19](https://mvnrepository.com/artifact/com.storm-enroute/scalameter_2.13/0.19)
 
 # Quickstart
-- modify `person.proto`
-- run `compile` in sbt shell
 
 # Reference
-- [ScalaPB](https://github.com/scalapb/ScalaPB)
-- [google protobuf简介及使用](https://blog.gwq5210.cn/2016/07/30/google%20protobuf%E7%AE%80%E4%BB%8B/)
+0. [sbt](https://www.scala-sbt.org/download.html)
+0. [Scalafmt](https://scalameta.org/scalafmt/docs/installation.html#intellij)
+0. [ScalaTest](http://www.scalatest.org/install)
+0. [ScalaMock](http://scalamock.org/quick-start)
+0. [ScalaMeter](https://scalameter.github.io/home/download/)
