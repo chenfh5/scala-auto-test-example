@@ -13,15 +13,15 @@ try to shwo how to use,
 - Scalafmt, [2.1.0-RC1](https://github.com/scalameta/scalafmt/tree/v2.1.0-RC1)
 
 ## add as sbt dependency
-- ScalaTest, [3.0.8](https://mvnrepository.com/artifact/org.scalatest/scalatest_2.13/3.0.8),
+- ScalaTest, [3.0.8](https://mvnrepository.com/artifact/org.scalatest/scalatest_2.13/3.0.8)
 - ScalaMock, [4.4.0](https://mvnrepository.com/artifact/org.scalamock/scalamock_2.13/4.4.0)
 - ScalaMeter, [0.19](https://mvnrepository.com/artifact/com.storm-enroute/scalameter_2.13/0.19)
 
 # Quickstart
 
 # Reference
-0. [sbt](https://www.scala-sbt.org/download.html)
-0. [Scalafmt](https://scalameta.org/scalafmt/docs/installation.html#intellij)
-0. [ScalaTest](http://www.scalatest.org/install)
-0. [ScalaMock](http://scalamock.org/quick-start)
-0. [ScalaMeter](https://scalameter.github.io/home/download/)
+1. [sbt](https://www.scala-sbt.org/download.html)
+2. [Scalafmt](https://scalameta.org/scalafmt/docs/installation.html#intellij)
+3. [ScalaTest](http://www.scalatest.org/install)
+4. [ScalaMock](http://scalamock.org/quick-start)
+5. [ScalaMeter](https://scalameter.github.io/home/download/)
