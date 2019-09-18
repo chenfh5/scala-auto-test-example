@@ -18,6 +18,8 @@ try to shwo how to use,
 - ScalaMeter, [0.19](https://mvnrepository.com/artifact/com.storm-enroute/scalameter_2.13/0.19)
 
 # Quickstart
+- run sbt test
+- Run `PrdBmTest`
 
 # Reference
 1. [sbt](https://www.scala-sbt.org/download.html)
