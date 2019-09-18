@@ -14,6 +14,6 @@ val testSeq = Seq(
   "org.scalamock"     %% "scalamock"  % "4.4.0" % Test,
   "com.storm-enroute" %% "scalameter" % "0.19"  % Test)
 
-testFrameworks += new TestFramework("org.scalameter.ScalaMeterFramework")
-logBuffered := false
-parallelExecution in Test := false
+//testFrameworks += new TestFramework("org.scalameter.ScalaMeterFramework")
+//logBuffered := false
+//parallelExecution in Test := false

@@ -9,7 +9,7 @@ import org.scalamock.scalatest.MockFactory
 
 import scala.util.Random
 
-object RangeBenchmark extends Bench.LocalTime with MockFactory {
+object PrdBmTest extends Bench.LocalTime with MockFactory {
   // init
   val initMap = new ConcurrentHashMap[String, String]()
   initMap.put("k1", "v1")
