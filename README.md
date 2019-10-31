@@ -1,3 +1,5 @@
+![](https://github.com/chenfh5/scala-auto-test-example/workflows/scala-auto-test-example-ci/badge.svg)
+
 # Overview
 try to shwo how to use,
 - **sbt**<sup>[1]</sup>, to build and manage scala project and its dependencies/plugins,
